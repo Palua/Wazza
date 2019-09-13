@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Inscription</title>
+	</head>
+
+	<body>
+	
+		<p><div><b>Inscription :</b></div></p>
+		
+		<div>
+		
+		<fieldset>
+			<legend>Veuillez remplir les champs suivants :</legend> 
+			<form method="post" action="./Authentification.php">
+				<p> 
+					<label for="pseudo">Pseudo :</label> 
+					<input type="text" name="pseudo" required /> 
+				</p>
+				
+				<p> 
+					<label for="age">Age :</label> 
+					<input type="number" min="18" max="2000" step="1" name="age" required /> 
+				</p>
+				
+				<p> 
+					<label for="pass">Mot de Passe :</label> 
+					<input type="password" name="pass" required /> 
+				</p>
+				
+				<p> 
+					<label for="cpass">Confirmer votre mot de passe :</label> 
+					<input type="password" name="cpass" required /> 
+				</p>
+				
+		</fieldset>
+				<input type="submit" value="S'inscrire" />
+			</form>
+		</div>
+	</body>
+</html>
