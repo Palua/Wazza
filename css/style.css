@@ -184,7 +184,11 @@ h6 {
   color: #f8f8f8;
   font-size: 18px;
   line-height: 32px;
+<<<<<<< HEAD
   background: url(../img/icons/plume.png) no-repeat left;
+=======
+  background: url(../img/icons/phone.png) no-repeat left;
+>>>>>>> 29368152f6df4c4a4684cfced8aa0f6d60d58392
   padding-left: 30px;
 }
 
@@ -832,6 +836,7 @@ p.copyright {
     margin-bottom: 20px;
   }
 }
+<<<<<<< HEAD
 
 #dropdown ul {
  margin:0;
@@ -864,3 +869,5 @@ p.copyright {
 #dropdown li:hover ul li {
  float:none;
  }
+=======
+>>>>>>> 29368152f6df4c4a4684cfced8aa0f6d60d58392
