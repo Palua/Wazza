@@ -61,7 +61,7 @@
 				//On teste si un utilisateur est connecté
 				if(empty($pseudo))
 				{
-					echo 'pas remplit';
+					echo 'pas rempli';
 				}
 				else
 				{
@@ -111,7 +111,7 @@
                     <li>
                       <h2 class="title">Actualités : Escouades</h2>
                       <h5 class="subtitle">Venez bénécificiez des services du célèbre tueur d'ogres Boyd la Brute !</h5>
-                      <img class="model" src="img/slides/thumb3.png" alt="" />
+                      <img class="model" src="img/merc.png" alt="" />
                     </li>
                   </ul>
                 </div>

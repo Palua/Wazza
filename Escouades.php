@@ -57,11 +57,12 @@
               <img src="img/logo.png" alt="" />
             </a>
           </div>-->
-			<?php 
+				<button class="btn btn-theme btn-medium margintop10 margin-right:100px" onclick="window.location.href = './index.php';">Accueil</button>
+				<?php 
 				//On teste si un utilisateur est connecté
 				if(empty($pseudo))
 				{
-					echo 'pas remplit';
+					echo 'pas rempli';
 				}
 				else
 				{
@@ -71,7 +72,6 @@
 				//On détruit la session lorsqu'on se déconnecte
 				session_destroy();
 				?>
-				<button class="btn btn-theme btn-medium margintop10 margin-right:100px" onclick="window.location.href = './index.php';">Accueil</button>
           <div class="phone">
             <p>
 				Écrivez-nous au : 008 009 172   
@@ -94,101 +94,8 @@
 			<!-- boxes empty for space -->
 			<div class="boxes">
 				<div class="row-fluid">
-				<p></p>
-				</div>
-			</div>
-		</div>
-	<!-- end wrapper -->
-	<div class="wrapper">
-	<div id="dropdown">
-		<ul>
-		  <li><a href="#">Greil</a>
-		  <ul>
-		  <!-- boxes helmet -->
-				    <div class="boxes">
-					  <div class="row-fluid">
-						<!-- box 1 -->
-								  <div class="span4">
-									<div class="box">
-									  <div class="icon">
-										<img src="img/Products/Merceneries/Greil/Ike.png" class="" alt="" />
-									  </div>
-									  <h4 style="color:white;">Ike</h4>
-									</div>
-								  </div>
-								  
-								  <!-- box 1 -->
-								  <div class="span4">
-									<div class="box">
-									  <div class="icon">
-										<img src="img/Products/Merceneries/Greil/Titania.png" class="" alt="" />
-									  </div>
-									  <h4 style="color:white;">Titania</h4>
-									</div>
-								  </div>
-								  
-								  <!-- box 1 -->
-								  <div class="span4">
-									<div class="box">
-									  <div class="icon">
-										<img src="img/Products/Merceneries/Greil/Soren.png" class="" alt="" />
-									  </div>
-									  <h4 style="color:white;">Soren</h4>
-									</div>
-								  </div>
-					  </div>
-					</div>
-					<!-- end boxes helmet -->
-			</ul>
-		  
-		  </li>
-		  
-		  
-		  <li><a href="#">Gerik</a>
-		  
-		  <ul>
-		  <!-- boxes helmet -->
-				    <div class="boxes">
-					  <div class="row-fluid">
-						<!-- box 1 -->
-								  <div class="span4">
-									<div class="box">
-									  <div class="icon">
-										<img src="img/Products/Merceneries/Gerik/Gerik.png" class="" alt="" />
-									  </div>
-									  <h4 style="color:white;">Gerik</h4>
-									</div>
-								  </div>
-								  
-								  <!-- box 1 -->
-								  <div class="span4">
-									<div class="box">
-									  <div class="icon">
-										<img src="img/Products/Merceneries/Gerik/Marisa.png" class="" alt="" />
-									  </div>
-									  <h4 style="color:white;">Marisa</h4>
-									</div>
-								  </div>
-								  
-								  <!-- box 1 -->
-								  <div class="span4">
-									<div class="box">
-									  <div class="icon">
-										<img src="img/Products/Merceneries/Gerik/Saleh.png" class="" alt="" />
-									  </div>
-									  <h4 style="color:white;">Saleh</h4>
-									</div>
-								  </div>
-					  </div>
-					</div>
-					<!-- end boxes helmet -->
-			</ul>
-		  
-		  </li>
-		</ul>
-	</div>
-	
-	<!-- boxes -->
+				<p>
+				<!-- navigation boxes -->
           <div class="boxes">
             <div class="row-fluid">
 
@@ -199,7 +106,6 @@
                     <img src="img/icons/potion.png" class="" alt="" />
                   </div>
                   <h4>Potions</h4>
-                  <p>Ne partez pas à l'aventure sans un minimum de concotions tel que nos potions d'invisibilité, de soins, de vision nocturne...</p>
                   <a href="Potions.php" class="textlink">Produits disponibles</a>
                 </div>
               </div>
@@ -211,7 +117,6 @@
                     <img src="img/icons/sword.png" class="" alt="" />
                   </div>
                   <h4>Équipements</h4>
-                  <p>Choisissez parmi une grande variété d'armures et d'armes comprenant entre autres épées, arcs, écus, casques, cottes de mailles...</p>
                   <a href="Equipements.php" class="textlink">Produits disponibles</a>
                 </div>
               </div>
@@ -223,7 +128,6 @@
                     <img src="img/icons/blason.png" class="" alt="" />
                   </div>
                   <h4>Escouades</h4>
-                  <p>Louez les services de mercenaires reconnus dans toute la contrée tel que les mercenaires de Greil, de Gerik... </p>
                   <a href="Escouades.php" class="textlink">Produits disponibles</a>
                 </div>
               </div>
@@ -232,10 +136,105 @@
 
           </div>
           <!-- end boxes -->
-	
+				</p>
+				</div>
+			</div>
+		</div>
+	<!-- end wrapper -->
+	<div class="wrapper">
+	<center>
+		<h1>Mercenaires</h1>
+	</center>
+	<div>
+	<!-- boxes sword -->
+				  <div class="boxes">
+					<div class="row-fluid">
+
+					  <!-- box 1 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Merceneries/Greil/Ike.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Ike</h4>
+						  <h5 style="color:black;">10 Pièces d'or/H</h4>
+
+						</div>
+					  </div>
+
+					  <!-- box 2 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Merceneries/Greil/Titania.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Titania</h4>
+						  <h5 style="color:black;">10 Pièces d'or/H</h4>
+
+						</div>
+					  </div>
+					  
+					  <!-- box 3 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Merceneries/Greil/Soren.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Soren</h4>
+						  <h5 style="color:black;">7 Pièces d'or/H</h4>
+						</div>
+					  </div>
+					</div>
+				 </div>
+				 <!-- end boxes sword -->
 	</div>
 	
+	<div>
+	<!-- boxes longshot -->
+				  <div class="boxes">
+					<div class="row-fluid">
+
+					  <!-- box 1 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Merceneries/Gerik/Gerik.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Gerik</h4>
+						  <h5 style="color:black;">8 Pièces d'or/H</h4>
+
+						</div>
+					  </div>
+
+					  <!-- box 2 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Merceneries/Gerik/Marisa.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Marisa</h4>
+						  <h5 style="color:black;">5 Pièces d'or/H</h4>
+
+						</div>
+					  </div>
+					  
+					  <!-- box 3 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Merceneries/Gerik/Saleh.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Saleh</h4>
+						  <h5 style="color:black;">8 Pièces d'or/H</h4>
+
+						</div>
+					  </div>
+					</div>
+				 </div>
+				 <!-- end boxes longshot -->
+	</div>
 	
+	</div>
 	
 	  </div>
 	</section>

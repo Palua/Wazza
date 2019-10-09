@@ -126,51 +126,9 @@
 			error_reporting(0);
 			ini_set('display_errors', 0); 
 	?>	
-		<p><div><b>Inscription :</b></div></p>
+		<p><div><b>Connexion :</b></div></p>
 		
 		<div align="center">
-		<fieldset>
-			<legend> <br><h2 class="title">Veuillez remplir les champs suivants :</h2></br></legend> 
-			<form method="post" action="./Authentification.php">
-				<p> 
-					<div>
-						<div align="center">
-							<label for="pseudo">Pseudo :</label> 
-							<input type="text" name="pseudo" required /> 
-						</div>
-					</div>
-				</p>
-				
-				<p>
-					<div>				
-						<div align="center">
-							<label for="age">Age :</label> 
-							<input type="number" min="18" max="2000" step="1" name="age" required /> 
-						</div>
-					</div>
-				</p>
-				
-				<p>
-					<div>				
-						<div align="center">
-							<label for="pass">Mot de Passe :</label> 
-							<input type="password" name="pass" required />
-						</div>
-					</div>
-				</p>
-				
-				<p>
-					<div>				
-						<div align="center">
-							<label for="cpass">Confirmer votre mot de passe :</label> 
-							<input type="password" name="cpass" required />
-						</div>
-					</div>
-				</p>
-				
-		</fieldset>
-				<input type="submit" value="S'inscrire" />
-			</form>
 				
 		<?php  	$pseudo = $_POST['pseudo'];
 				$age = $_POST['age'];
@@ -214,6 +172,9 @@
 			//header('Location: http://technologiesweb/Wazza/');
 		}
 		?>
+		
+		<button><a href="Inscription.html">Retour à la Page Inscription</a></button>
+		
 		</div>
 		
 			<!-- section contact -->

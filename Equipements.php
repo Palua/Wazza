@@ -62,7 +62,7 @@
 				//On teste si un utilisateur est connecté
 				if(empty($pseudo))
 				{
-					echo 'pas remplit';
+					echo 'pas rempli';
 				}
 				else
 				{
@@ -94,142 +94,8 @@
 			<!-- boxes empty for space -->
 			<div class="boxes">
 				<div class="row-fluid">
-				<p></p>
-				</div>
-			</div>
-		</div>
-	<!-- end wrapper -->
-	<div class="wrapper">
-	
-	<div id="dropdown">
-		<ul>
-		  <li><a href="#">Armes</a>
-				<ul>
-				  <li><a href="#">Épées</a>
-					<!-- boxes sword -->
-				  <div class="boxes">
-					<div class="row-fluid">
-					
-					  <!-- box 1 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Sword/Claymore.jpg" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Claymore</h4>
-						</div>
-					  </div>
-
-					  <!-- box 2 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Sword/Glaive.jpg" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Glaive</h4>
-						</div>
-					  </div>
-					  
-					  <!-- box 3 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Sword/Rapiere.jpg" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Rapiere</h4>
-						</div>
-					  </div> 
-					</div>
-				 </div>
-				 <!-- end boxes sword -->
-					
-				  </li>
-				  
-				  <li><a href="#">Traits</a>
-				  <!-- boxes traits -->
-				  <div class="boxes">
-					<div class="row-fluid">
-					
-					  <!-- box 1 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Projectiles/Bow.jpg" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Arc</h4>
-						</div>
-					  </div>
-
-					  <!-- box 2 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Projectiles/Slingshot.jpg" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Lance-Pierre</h4>
-						</div>
-					  </div>
-					</div>
-				 </div>
-				 <!-- end boxes traits -->
-				 
-				  </li>
-				  <li><a href="#">Boucliers</a>
-				  <!-- boxes shields -->
-				  <div class="boxes">
-					<div class="row-fluid">
-
-					  <!-- box 1 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Shields/ecu.png" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Écu</h4>
-						</div>
-					  </div>
-
-					  <!-- box 2 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Weapons/Shields/Targe.png" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Targe</h4>
-						</div>
-					  </div>
-					</div>
-				 </div>
-				 <!-- end boxes shields -->
-				  
-				  </li>
-				</ul>
-		  </li>
-		  <li><a href="#">Armures</a>
-				<ul>
-				 <li><a href="#">Haumes</a>
-					<!-- boxes helmet -->
-				    <div class="boxes">
-					  <div class="row-fluid">
-						<!-- box 1 -->
-					  <div class="span4">
-						<div class="box">
-						  <div class="icon">
-							<img src="img/Products/Equipments/Armours/Helmet/Heaume_du_croise.png" class="" alt="" />
-						  </div>
-						  <h4 style="color:white;">Heaume de croisé</h4>
-						</div>
-					  </div>
-					  </div>
-					</div>
-					<!-- end boxes helmet -->
-				 </li>
-				</ul>
-		  </li>
-		</ul>
-	</div>
-	
-	<!-- navigation boxes -->
+				<p>
+				<!-- navigation boxes -->
           <div class="boxes">
             <div class="row-fluid">
 
@@ -240,7 +106,6 @@
                     <img src="img/icons/potion.png" class="" alt="" />
                   </div>
                   <h4>Potions</h4>
-                  <p>Ne partez pas à l'aventure sans un minimum de concotions tel que nos potions d'invisibilité, de soins, de vision nocturne...</p>
                   <a href="Potions.php" class="textlink">Produits disponibles</a>
                 </div>
               </div>
@@ -252,7 +117,6 @@
                     <img src="img/icons/sword.png" class="" alt="" />
                   </div>
                   <h4>Équipements</h4>
-                  <p>Choisissez parmi une grande variété d'armures et d'armes comprenant entre autres épées, arcs, écus, casques, cottes de mailles...</p>
                   <a href="Equipements.php" class="textlink">Produits disponibles</a>
                 </div>
               </div>
@@ -264,7 +128,6 @@
                     <img src="img/icons/blason.png" class="" alt="" />
                   </div>
                   <h4>Escouades</h4>
-                  <p>Louez les services de mercenaires reconnus dans toute la contrée tel que les mercenaires de Greil, de Gerik... </p>
                   <a href="Escouades.php" class="textlink">Produits disponibles</a>
                 </div>
               </div>
@@ -273,6 +136,103 @@
 
           </div>
           <!-- end boxes -->
+				</p>
+				</div>
+			</div>
+		</div>
+	<!-- end wrapper -->
+	<div class="wrapper">
+	<center>
+		<h1>Équipements</h1>
+	</center>
+	<div>
+	<!-- boxes sword -->
+				  <div class="boxes">
+					<div class="row-fluid">
+
+					  <!-- box 1 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Equipments/Weapons/Sword/Claymore.jpg" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Claymore</h4>
+						  <h5 style="color:black;">20 Pièces d'or</h4>
+
+						</div>
+					  </div>
+
+					  <!-- box 2 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Equipments/Weapons/Sword/Glaive.jpg" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Glaive</h4>
+						  <h5 style="color:black;">12 Pièces d'or</h4>
+
+						</div>
+					  </div>
+					  
+					  <!-- box 3 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Equipments/Weapons/Sword/Rapiere.jpg" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Rapiere</h4>
+						  <h5 style="color:black;">24 Pièces d'or</h4>
+						</div>
+					  </div>
+					</div>
+				 </div>
+				 <!-- end boxes sword -->
+	</div>
+	
+	<div>
+	<!-- boxes longshot -->
+				  <div class="boxes">
+					<div class="row-fluid">
+
+					  <!-- box 1 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Equipments/Weapons/Projectiles/Bow.png" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Arc</h4>
+						  <h5 style="color:black;">25 Pièces d'or</h4>
+
+						</div>
+					  </div>
+
+					  <!-- box 2 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Equipments/Weapons/Projectiles/Slingshot.jpg" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Lance-Pierre</h4>
+						  <h5 style="color:black;">2 Pièces d'or</h4>
+
+						</div>
+					  </div>
+					  
+					  <!-- box 3 -->
+					  <div class="span4">
+						<div class="box">
+						  <div class="icon">
+							<img src="img/Products/Equipments/Weapons/Shields/rondache.jpg" class="" alt="" />
+						  </div>
+						  <h4 style="color:black;">Rondache</h4>
+						  <h5 style="color:black;">12 Pièces d'or</h4>
+
+						</div>
+					  </div>
+					</div>
+				 </div>
+				 <!-- end boxes longshot -->
+	</div>
 	
 	</div>
 	
